@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+                                        /* header part */
+#header{
+    background-color: none;
+    height: 100px;
+}
+#header input {
+    padding: 10px 18px;
+    font-size: 17px;
+    border: 2px solid rgb(151, 151, 151);
+    border-radius: 100px;
+    right: 30px;
+    top: 33px;
+    position: absolute;
+}
+
+
+#img-1{
+    top: 10px;
+    left: 200px;
+    position:absolute;
+}
+#img-2 {
+    position: absolute;
+    right: 430px;
+    top: 33px;
+}
+#img-3{
+    position: absolute;
+    right: 390px;
+    top: 39px;
+}
+#img-4{
+    position: absolute;
+    right: 348px;
+    top: 39px;
+}
+#img-5 {
+    position: absolute;
+    right: 306px;
+    top: 39px;
+}
+
+                                /* navigation bar */
+
+
+#navbar{
+    padding: 10px;
+    border-top: 1px solid rgb(153, 153, 153);
+    border-bottom: 1px solid rgb(114, 114, 114);
+}
+#navbar li{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 0px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(116, 116, 116);
+}
+#navbar ul{
+  margin: 0px 60px;
+}
+#navbar button{
+     font-size: 20px;
+     padding: 5px 7px;
+     margin: 0px 4px;
+     background-color: rgb(132,214,197);
+     color: white;
+     border: none;
+}
+
+                                        /* section */
+#product{
+    position: absolute;
+   margin: 0px 100px;
+}
+#product-details{
+    position: relative;
+    width: 490px;
+    height: 655px;
+    display: inline-block;
+    margin: 0px 650px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 40px;
+}
+#stars{
+    display: block;
+    width: 6rem;
+    height: 1rem;
+}
+#product-details h2{
+     color: rgb(68, 68, 68);
+     font-size: 2rem;
+}
+#product-details strong{
+     color: rgb(68, 68, 68);
+     font-size: 1.75rem;
+}
+#product-details p{
+     color: rgb(117, 117, 117);
+     font-size: 17px;
+     font-weight: lighter;
+}
+#product-details a,h3{
+     color: rgb(0, 184, 184);
+     text-decoration: none;
+}
+.adjust{
+    font-size: 1.25rem;
+    padding: 6px;
+    margin: 0px 0px 0px 0px ;
+}
+.add-to-cart{
+    font-size: 1rem;
+    padding: 9px;
+    margin: 3px 11px 9px 20px;
+    border: none;
+    background-color: rgb(210,110,75);
+    color: white;
+}
+#product-details input{
+    padding: 6px 0px;
+    font-size: 1.25rem;
+    width: 30px;
+}
+
+#discription{
+    width: 1000px;
+    margin: 0px 210px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top: 2px solid rgb(148, 147, 147);
+    color: rgb(116, 114, 114);
+}
+#discription h5{
+    font-size: 20px;
+}
+#discription a{
+    text-decoration: none;
+    color: rgb(3, 201, 201);
+}
+                                                /* faqs */
+
+#faqs{
+    width: 1000px;
+    margin: 10px 210px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(70, 70, 70);
+}
+#faqs h3{
+    color: rgb(56, 56, 180);
+    font-size: 1.5rem;
+    margin: 10px 0px ;
+}
+   
+
+                /* related products  */
+
+#related-products h3{
+   color: rgb(49, 49, 49);
+   font-size: 2rem;
+
+}
+#related-products{
+    margin: 50px 81px;
+    display: inline-block;
+}
+#related-products figure{
+   display: inline-block;
+   margin: 10px;
+}
+#related-products a{
+   color: rgb(5, 199, 199);
+   font-size: 1rem;
+   text-decoration: none;
+}
